@@ -2,6 +2,8 @@ import HeroSection from "@/components/home/hero-section";
 import FeaturedRoasts from "@/components/home/featured-roasts";
 import BeanPath from "@/components/home/bean-path";
 import BrewGuides from "@/components/home/brew-guides";
+import CTA from "@/components/home/CTA";
+import Location from "@/components/home/location";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <FeaturedRoasts />
       <BeanPath />
       <BrewGuides />
+      <CTA />
+      <Location />
     </main>
   );
 }
