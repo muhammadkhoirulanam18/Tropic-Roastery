@@ -1,10 +1,11 @@
 import HeroSection from "@/components/home/hero-section";
+import FeaturedRoasts from "@/components/home/featured-roasts";
 
 export default function Home() {
   return (
     <main className="flex-1">
       <HeroSection />
-      {/* Other sections can be added here in the future */}
+      <FeaturedRoasts />
     </main>
   );
 }
