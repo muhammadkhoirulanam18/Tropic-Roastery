@@ -31,8 +31,8 @@ const featuredProducts = [
 
 export default function FeaturedRoasts() {
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-24 bg-[#FAF8F5]">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-20 px-6 md:px-12 bg-[#FAF8F5]">
+      <div className="max-w-5xl mx-auto">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
           <div>
