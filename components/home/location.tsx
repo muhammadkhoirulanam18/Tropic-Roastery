@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Location() {
   return (
-    <section className="bg-[#FAF8F5] py-20 px-6 md:px-12 lg:px-24">
+    <section className="bg-[#1A1009] py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         
         {/* Left Side: Contact Info Card */}

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function BeanPath() {
   return (
-    <section className="py-24 px-6 md:px-12 bg-[#F4F1EE]">
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+    <section className="py-24 px-6 md:px-12 bg-[#EAE4DD]">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
         
         {/* Left Side: Images */}
         <div className="w-full lg:w-1/2 relative">

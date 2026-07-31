@@ -31,21 +31,21 @@ const featuredProducts = [
 
 export default function FeaturedRoasts() {
   return (
-    <section className="py-20 px-6 md:px-12 bg-[#FAF8F5]">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-20 px-6 md:px-12 bg-[#2C1B10]">
+      <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
           <div>
             <h3 className="text-[#D4A373] text-sm font-bold tracking-wider mb-2">
               OUR SELECTION
             </h3>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-[#2C1B10] tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
               FEATURED ROASTS
             </h2>
           </div>
           <Link
             href="/products"
-            className="text-[#2C1B10] text-sm font-bold tracking-widest underline decoration-2 underline-offset-4 hover:text-[#D4A373] transition-colors"
+            className="text-[#D4A373] text-sm font-bold tracking-widest underline decoration-2 underline-offset-4 hover:text-white transition-colors"
           >
             VIEW ALL COLLECTIONS
           </Link>

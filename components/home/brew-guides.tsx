@@ -20,7 +20,7 @@ const blogPosts = [
     id: 3,
     title: "Finding Your Perfect Roast",
     description: "Unsure which bean fits your palate? Our roast level comparison helps you choose.",
-    image: "/cover website/Background-3.jpg",
+    image: "/cover website/background3.jpg",
     link: "/blog/perfect-roast",
   },
 ];
@@ -28,7 +28,7 @@ const blogPosts = [
 export default function BrewGuides() {
   return (
     <section className="py-24 px-6 md:px-12 bg-white">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         
         {/* Header */}
         <div className="text-center mb-16">

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#FAFAFA] py-16 md:py-24 lg:py-32">
+    <section className="relative overflow-hidden bg-[#FDFBF7] py-16 md:py-24 lg:py-32">
       {/* Decorative background elements */}
       <div className="absolute top-1/2 left-0 -z-10 h-96 w-96 -translate-y-1/2 rounded-full bg-[#F5F0E6]/60 blur-3xl" />
       <div className="absolute right-0 top-0 -z-10 h-80 w-80 rounded-full bg-[#D4A373]/10 blur-3xl" />
