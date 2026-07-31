@@ -36,7 +36,7 @@ export default function HeroSection() {
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-[420px] aspect-square overflow-hidden rounded-2xl md:rounded-3xl bg-[#F5F2EB] shadow-2xl transition-transform duration-500 hover:scale-[1.02] rotate-1 md:rotate-2">
               <Image
-                src="/cover website/Hero Section.png"
+                src="/cover%20website/cta.png"
                 alt="Kopi Nusantara Illustration - Barista brewing pour-over coffee with monkeys and mountains"
                 fill
                 priority
