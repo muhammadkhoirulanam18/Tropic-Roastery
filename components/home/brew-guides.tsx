@@ -64,7 +64,7 @@ export default function BrewGuides() {
                   {post.description}
                 </p>
                 
-                <span className="text-[#2C1B10] text-xs font-bold tracking-widest uppercase mt-auto">
+                <span className="text-[#2C1B10] text-xs font-bold tracking-widest uppercase mt-auto underline decoration-1 underline-offset-4">
                   Read More
                 </span>
               </div>

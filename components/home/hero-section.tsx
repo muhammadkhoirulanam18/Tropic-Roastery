@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#FDFBF7] py-16 md:py-24 lg:py-32">
+    <section className="relative overflow-hidden bg-white py-16 md:py-24 lg:py-32">
       {/* Decorative background elements */}
       <div className="absolute top-1/2 left-0 -z-10 h-96 w-96 -translate-y-1/2 rounded-full bg-[#F5F0E6]/60 blur-3xl" />
       <div className="absolute right-0 top-0 -z-10 h-80 w-80 rounded-full bg-[#D4A373]/10 blur-3xl" />
@@ -12,7 +12,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-16">
           {/* Left Column: Text Content */}
           <div className="flex flex-col items-start text-left">
-            <h1 className="text-2xl font-extrabold tracking-tight text-[#211510] sm:text-3xl md:text-4xl lg:text-5xl leading-[1.15] md:leading-[1.2]">
+            <h1 className="text-3xl font-semibold tracking-tight text-[#211510] sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] md:leading-[1.15]">
               <span className="block text-[#211510]">INDONESIAN BEANS,</span>
               <span className="block text-[#C68B59] mt-1">ROASTED WITH CARE</span>
             </h1>

@@ -8,51 +8,55 @@ const featuredProducts = [
     name: "Flores Bajawa",
     description: "Chocolate, Tobacco, Spicy notes",
     price: "Rp. 90.000",
-    image: "/cover website/Flores.jpg",
-    roastLevel: "MEDIUM ROAST",
+    image: "/cover website/flores-bajawa.png",
   },
   {
-    id: "gayo-mountain",
-    name: "Gayo Mountain",
+    id: "lampung-mountain",
+    name: "Lampung Mountain",
     description: "Earthy, Cedar, Tropical Fruit",
     price: "Rp. 95.000",
-    image: "/cover website/Gayo.jpg",
-    roastLevel: "DARK ROAST",
+    image: "/cover website/robusta-lampung.png",
   },
   {
-    id: "toraja-kalossi",
-    name: "Toraja Kalossi",
+    id: "arabica-puntang",
+    name: "Arabica Puntang",
     description: "Floral, Lemonade, Herbal undertones",
     price: "Rp. 92.000",
-    image: "/cover website/Toraja.jpg",
-    roastLevel: "LIGHT ROAST",
+    image: "/cover website/arabica-puntang.png",
+  },
+  {
+    id: "aceh-gayo",
+    name: "Aceh Gayo",
+    description: "Dark Chocolate, Brown Sugar, Spices",
+    price: "Rp. 95.000",
+    image: "/cover website/aceh-gayo.png",
   },
 ];
 
 export default function FeaturedRoasts() {
   return (
-    <section className="py-20 px-6 md:px-12 bg-[#2C1B10]">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-16 md:py-24 lg:py-32 bg-white">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
           <div>
             <h3 className="text-[#D4A373] text-sm font-bold tracking-wider mb-2">
               OUR SELECTION
             </h3>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#2C1B10] tracking-tight">
               FEATURED ROASTS
             </h2>
           </div>
           <Link
             href="/products"
-            className="text-[#D4A373] text-sm font-bold tracking-widest underline decoration-2 underline-offset-4 hover:text-white transition-colors"
+            className="text-[#2C1B10] text-sm font-bold tracking-widest underline decoration-2 underline-offset-4 hover:text-[#D4A373] transition-colors"
           >
             VIEW ALL COLLECTIONS
           </Link>
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {featuredProducts.map((product) => (
             <div
               key={product.id}
@@ -68,11 +72,11 @@ export default function FeaturedRoasts() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 {/* Roast Label */}
-                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-sm">
+                {/* <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-sm">
                   <span className="text-[#2C1B10] text-xs font-bold tracking-wider">
                     {product.roastLevel}
                   </span>
-                </div>
+                </div> */}
               </div>
 
               {/* Product Details */}
@@ -87,7 +91,7 @@ export default function FeaturedRoasts() {
                 </div>
 
                 <div className="flex items-center justify-between mt-auto pt-4 border-t border-[#F2EFE9]">
-                  <span className="text-xl font-bold text-[#2C1B10]">
+                  <span className="text-base font-bold text-[#547556]">
                     {product.price}
                   </span>
                   
@@ -95,23 +99,8 @@ export default function FeaturedRoasts() {
                     href={siteConfig.links.tokopedia}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-[#F5F2EC] hover:bg-[#E8E3DA] text-[#2C1B10] px-4 py-2.5 rounded-full font-semibold text-sm transition-colors"
+                    className="text-[#2C1B10] text-xs font-semibold underline decoration-1 underline-offset-4 hover:text-[#D4A373] transition-colors uppercase tracking-wider"
                   >
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="18" 
-                      height="18" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"
-                    >
-                      <circle cx="8" cy="21" r="1"/>
-                      <circle cx="19" cy="21" r="1"/>
-                      <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
-                    </svg>
                     Beli Sekarang
                   </a>
                 </div>
